@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.tabCompletion": "on",
+    "workbench.sideBar.location": "right",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true
+}

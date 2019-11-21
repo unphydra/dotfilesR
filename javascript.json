@@ -1,0 +1,37 @@
+{
+	"describe for mocha const": {
+		"prefix": "desc",
+		"body": ["describe(\"${1:function name}\", () => {",
+		"\tit(\"${2:should name something}\", () => {",
+		"\t\tconst actual = ${3:actualValue};",
+		"\t\tconst expected = ${4:expectedValue};",
+		"\t\tassert.deepStrictEqual(actual, expected)",
+		"\t});",
+		"});",
+		],
+		"description": "describe block for mocha with const"
+	},
+	"describe for mocha": {
+		"prefix": "des",
+		"body": ["describe(\"${1:function name}\", () => {",
+			"\tit(\"${2:should name something}\", () => {",
+			"\t\tassert.deepStrictEqual(${3:actual}, ${4:expected})",
+			"\t});",
+			"});",
+			],
+		"description": "describe block for mocha"
+	},
+	"it for mocha": {
+		"prefix": "it",
+		"body": ["\tit(\"${1:should name something}\", () => {"],
+		"description": "it block for mocha"
+	},
+	"const function": {
+		"prefix": "conf",
+		"body": ["const ${1:name} = function(${2:args}) {",
+		"",
+		"return;",
+		"};"],
+		"description": "const functon block"
+	}
+}
