@@ -5,10 +5,30 @@
     "editor.tabCompletion": "on",
     "workbench.sideBar.location": "right",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Dark (Molokai)",
     "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "workbench.iconTheme": "vscode-icons",
     "editor.formatOnSave": true,
-    "workbench.editor.highlightModifiedTabs": true
+    "workbench.editor.highlightModifiedTabs": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "prettier.printWidth": 75,
+    "editor.multiCursorModifier": "alt",
+    "cSpell.userWords": [
+        "delim"
+    ],
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "files.autoSave": "off",
+    "editor.largeFileOptimizations": false,
+    "prettier.singleQuote": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command"
+    ],
+    "liveshare.presence": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "cSpell.maxNumberOfProblems": 1000000
 }

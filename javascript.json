@@ -23,7 +23,7 @@
 	},
 	"it for mocha": {
 		"prefix": "it",
-		"body": ["\tit(\"${1:should name something}\", () => {"],
+		"body": ["\tit(\"${1:should name something}\", () => {});"],
 		"description": "it block for mocha"
 	},
 	"const function": {

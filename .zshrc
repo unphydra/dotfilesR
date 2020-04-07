@@ -105,13 +105,29 @@ source $ZSH/oh-my-zsh.sh
 alias tmux='tmux -2'
 alias gst='git status'
 alias glo='git log'
-alias gdd='git add'
-
+alias gd='git add'
+alias gp='git pull'
+alias gpr='git pull --rebase'
+alias gpu='git push'
+alias gc='git commit'
+alias gco='git checkout'
+alias ggraph="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+alias scala="/Users/step12/Downloads/scala-2.13.1/bin/scala"
+alias latest="nvm use latest"
+alias stable="nvm use stable"
+alias cr="~/customCommand/cr.sh"
+alias clr="~/customCommand/clr.sh"
 # source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
-source '/Users/step12/awk file'/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source '/Users/step12/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export LC_ALL=en_US.UTF-8
+source /Users/step12/.ghcup/env
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
