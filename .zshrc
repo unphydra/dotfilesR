@@ -4,6 +4,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/rivulayek/.oh-my-zsh"
 export TERM='xterm-256color'
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export ANDROID_SDK=/Users/rivulayek/Library/Android/sdk
+export PATH=/Users/rivulayek/Library/Android/sdk/platform-tools:$PATH
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -114,7 +120,6 @@ source '/Users/rivulayek/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
 export LC_ALL=en_US.UTF-8
 # source /Users/rivulayek/.ghcup/env
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true

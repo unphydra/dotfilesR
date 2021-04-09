@@ -12,12 +12,12 @@ set shiftwidth=2            "shift tab
 set expandtab		            "expand of tab
 set cursorline
 filetype plugin indent on   "indenton on
-syntax enable               "enabling syntax color
+syntax on                   "enabling syntax color
 set autoindent              "this enable my autoindent
 let mapleader=","           "to set leader
 set backspace=indent,eol,start
 
-colorscheme purify
+"colorscheme purify
 
 " for coloum highlighting after 79
 " call matchadd("ErrorMsg", "\\%>79v.\\+",)
@@ -110,8 +110,8 @@ Plug 'kyoz/purify', { 'rtp': 'vim' }
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } "fizzy finder plugin
 " Plug 'junegunn/fzf.vim'                                           "fizzy finder plugin
 Plug 'Yggdroot/indentLine'                                        "indent line plugin
-Plug 'vim-scripts/YankRing.vim'                                   "yankring plugin
-Plug 'SirVer/ultisnips'
+"Plug 'vim-scripts/YankRing.vim'                                   "yankring plugin
+"Plug 'SirVer/ultisnips'
 call plug#end()
 
 " i have to put the colorscheme in the last, unless it may not work
