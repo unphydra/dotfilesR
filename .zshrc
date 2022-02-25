@@ -2,7 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/step12/.oh-my-zsh"
 export TERM='xterm-256color'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -72,12 +71,10 @@ plugins=(git)
 plugins=(zsh-autosuggestions)
 plugins=(web-search)
 
-source /Users/step12/.oh-my-zsh/plugins/colored-man-pages/colored-man-pages.plugin.zsh
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source $ZSH/oh-my-zsh.sh
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZSH/oh-my-zsh.sh
-
-source dotfiles/alias.sh
+source ~/dotfilesR/alias.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -106,15 +103,7 @@ source dotfiles/alias.sh
 
 # source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
-source '/Users/step12/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh'
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export LC_ALL=en_US.UTF-8
-source /Users/step12/.ghcup/env
-
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /Users/rivulayek/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
